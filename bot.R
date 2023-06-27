@@ -193,10 +193,10 @@ if(length(game_ids) > 0) {
       rtweet::post_tweet(
         tweet,
         token = rtweet::rtweet_bot(
-          api_key       = Sys.getenv("blah"),
-          api_secret    = Sys.getenv("blah"),
-          access_token  = Sys.getenv("blah"),
-          access_secret = Sys.getenv("blah")
+          api_key       = Sys.getenv("biYdwTAEZbIQmCJ4BWEnK637F"),
+          api_secret    = Sys.getenv("PTQrDBpn5ytXtPbp2gFLToHI3QGn2Em5P0CfVPasBj6l5XJavq"),
+          access_token  = Sys.getenv("1645081424699981826-cGiE25MvsmJrBZ1hz3N8HqiGgsMFwJ"),
+          access_secret = Sys.getenv("MuLIukV5gEvqkCdtez3CifvCafi5AEbgrR9ChKXIuvuJm")
         )
       )
       tweeted_play <- dplyr::select(
@@ -223,14 +223,13 @@ if(length(game_ids) > 0) {
     
     This game is a 1-run game in the 9th inning!")
     print("blah #2")
-    response = client.create_tweet(tweet)
     rtweet::post_tweet(
         tweet,
         token = rtweet::rtweet_bot(
-          api_key       = "blah",
-          api_secret    = "blah",
-          access_token  = "blah",
-          access_secret = "blah"
+          api_key       = "hZio4odb9izX0I8hgt8rsjMs6",
+          api_secret    = "b5RLvTiflca3VAXIliEWT4Fyo4wGPJzpqe0MySUJEbKzk5oduW",
+          access_token  = "1645081424699981826-3HvCea0YtORlMITHWCqtrJQk7UuBfI",
+          access_secret = "NZHg85sJumETtKEdRhevv8IFD7BDzSgnyin1LlrmhkzXb"
         )
       )
       print("blah #3")
